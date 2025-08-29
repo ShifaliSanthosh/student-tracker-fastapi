@@ -18,13 +18,13 @@ A RESTful API built with FastAPI to manage students, their scores, and academic 
 **1. Clone the Repo**
 
 git clone https://github.com/ShifaliSanthosh/student-tracker-fastapi.git
+
 cd student-tracker-fastapi
 
 
 **2. Create Virtual Environment**
    
 python -m venv .venv
-source .venv/bin/activate      # Linux/macOS
 .venv\Scripts\activate         # Windows
 
 **3. Install Dependencies**
@@ -34,3 +34,4 @@ pip install -r requirements.txt
 **4. Run the server**
 
 uvicorn app.main:app --reload
+
